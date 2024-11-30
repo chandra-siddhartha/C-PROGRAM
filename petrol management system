@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+printf("\t  Petrol Pump\n");
+printf("\t __________________");
+printf("\n \n\n");
+printf("\n");
+int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+char ch;
+printf("\t \t *Press 1 for PETROL \n");
+printf("\t \t *Press 2 for DIESEL \n");
+printf("\t \t *Press 3 for CNG \n");
+printf("\n");
+scanf("%d",&a);
+switch(a){
+case 1:printf("\n\n");
+printf("1 litre petrol =Rs 75.00\n");
+printf("How much litre You Want\n");
+printf("\n");
+scanf("%d",&b);
+z=b*75.00;
+printf("\n");
+printf("Your Bill is %f\n",z);
+printf("\n");
+printf("How Would you like pay\n");
+printf("\t *Press 1 for cash\n");
+printf("\t *press 2 for card\n");
+scanf("%d",&c);
+if(s==1){
+printf("\n");
+printf("Payment Paid\n");
+printf("Thanyou for coming\n");
+}
+else if(s==2){
+    printf("Swipe your card\n");
+    printf("\n");
+    printf("payment paid\n");
+    printf("thanks for coming\n");
+    
+}
+    break;
+    case 2:printf("Price of Diesel is RS 90.00 per litre\n");
+    printf("How much litre of diesel you want\n");
+    scanf("%d",&c);
+    y=c*90.00;
+    printf("\n");
+    printf("Your Bill Is %f\n",y);
+    printf("\n");
+    printf("How Would You Like To Pay\n");
+    printf("*Press 1 for CASH\n *Press 2 for CARD\n");
+    scanf("%d",&d);
+    if (d==1)
+    printf("Thanks For Coming\n");
+    else if(d==2)
+    {
+        printf("Swipe Your Card\n");
+        printf("Payment Paid\n");
+        break;
+        }
+    case 3:printf("Price of CNG per litre is Rs 70.00\n");
+    printf("How much litre of CNG you want\n");
+    printf("\n\n");scanf("%d",&e);
+    w=e*70.00;
+    printf("\n");
+    printf("Your Bill is %f\n",w);
+    printf("\n");
+    printf("How would you like to pay\n");
+    printf("press 1 for CASH\n press 2 for CARD\n");
+    scanf("%d",&f);
+    if(f==1)
+    printf("Thanks For Coming\n");
+    else if(f==2)
+    {
+        printf("Swipe Your Card\n");
+        printf("Payment Paid\n");
+        printf("Thanks For Coming\n");
+        break;
+    }
+    }
+    }
