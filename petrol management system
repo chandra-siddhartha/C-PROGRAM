@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
 printf("\t  Petrol Pump\n");
 printf("\t ");
@@ -22,24 +21,22 @@ c=b*75.00;
 printf("\n");
 printf("Your Bill is %d\n",c);
 printf("\n");
-printf("How Would you like pay\n");
+printf("How Would you like to pay\n");
 printf("\t *Press 1 for cash\n");
 printf("\t *press 2 for card\n");
-
 scanf("%d",&d);
 if(d==1){
 printf("\n");
 printf("Payment Paid\n");
-printf("Thanyou for coming\n");
+printf("THANKS FOR COMING\n");
 }
 else if(d==2){
     printf("Swipe your card\n");
-    {
-    printf("ENTER THE CARD PIN\n");
-}
+    printf("ENTER THE PIN: ");
+    scanf("%d",&h);
     printf("\n");
     printf("payment paid\n");
-    printf("thanks for coming\n");
+    printf("THANKS FOR COMING\n");
     
 }
     break;
@@ -58,11 +55,14 @@ else if(d==2){
     else if(e==2)
     {
         printf("Swipe Your Card\n");
+          printf("ENTER THE PIN: ");
+          scanf("%d",&h);
         printf("Payment Paid\n");
+        printf("THANKS FOR COMING\n");
         break;
         }
     case 3:printf("Price of CNG per litre is Rs 70.00\n");
-    printf("How much litre of CNG you want\n");
+    printf("How much pounds of CNG you want\n");
     printf("\n\n");
     scanf("%d",&g);
     f=g*70.00;
@@ -77,6 +77,8 @@ else if(d==2){
     else if(h==2)
     {
         printf("Swipe Your Card\n");
+          printf("ENTER THE PIN: ");
+          scanf("%d",&h);
         printf("Payment Paid\n");
         printf("Thanks For Coming\n");
         break;
@@ -85,5 +87,5 @@ else if(d==2){
     }
 
 
+
     
-       
