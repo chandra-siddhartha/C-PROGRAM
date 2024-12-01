@@ -4,11 +4,13 @@ printf("\t  Petrol Pump\n");
 printf("\t ");
 printf("\n \n\n");
 printf("\n");
-int a,b,c,d,e,f,g,h,i,j,k,l;
+int a,b,c,d,e,f,g,h,i,j,k,l,m;
 char ch;
 printf("\t \t *if bike/any two wheelers Press 1 for PETROL \n");
 printf("\t \t *if any 4 wheelers/any other Press 2 for DIESEL \n");
 printf("\t \t *if any gas vehicals Press 3 for CNG \n");
+printf("\t \t *press 4 for tyre inflator\n");
+printf("\t \t *press 5 for refil the engine oil\n");
 printf("\n");
 scanf("%d",&a);
 switch(a){
@@ -83,9 +85,32 @@ else if(d==2){
         printf("Thanks For Coming\n");
         break;
     }
+    case 4:printf("price for to fill the air for one tyre is Rs 30.00\n");
+    printf("How many tyres do you want to fill the air\n");
+    printf("\n\n");
+    scanf("%d",&j);
+    k=j*30.00;
+    printf("\n");
+    printf("Your Bill is %d\n",k);
+    printf("\n");
+    printf("How would You like to pay\n");
+    printf("press 1 for cash\n press 2 for card\n");
+    scanf("%d",&l);
+    if(l==1)
+    printf("Thanks For Coming\n");
+    else if(l==2)
+    {
+        printf("swipe Your card\n");
+        printf("ENTER THE PIN:   \n");
+        scanf("%d",&l);
+        printf("Payment Successful\n");
+        printf("Thanks For coming\n");
+        break;
+    }
     }
     }
 
 
 
     
+
