@@ -2,13 +2,13 @@
 #include<string.h>
 int main(){
 printf("\t  Petrol Pump\n");
-printf("\t __________________");
+printf("\t ");
 printf("\n \n\n");
 printf("\n");
-int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+int a,b,c,d,e,f,g,h,i,j,k,l;
 char ch;
 printf("\t \t *if bike/any two wheelers Press 1 for PETROL \n");
-printf("\t \t *if any 4 wheelers Press 2 for DIESEL \n");
+printf("\t \t *if any 4 wheelers/any other Press 2 for DIESEL \n");
 printf("\t \t *if any gas vehicals Press 3 for CNG \n");
 printf("\n");
 scanf("%d",&a);
@@ -20,19 +20,23 @@ printf("\n");
 scanf("%d",&b);
 c=b*75.00;
 printf("\n");
-printf("Your Bill is %f\n",c);
+printf("Your Bill is %d\n",c);
 printf("\n");
 printf("How Would you like pay\n");
 printf("\t *Press 1 for cash\n");
 printf("\t *press 2 for card\n");
-scanf("%d",&c);
-if(s==1){
+
+scanf("%d",&d);
+if(d==1){
 printf("\n");
 printf("Payment Paid\n");
 printf("Thanyou for coming\n");
 }
-else if(s==2){
+else if(d==2){
     printf("Swipe your card\n");
+    {
+    printf("ENTER THE CARD PIN\n");
+}
     printf("\n");
     printf("payment paid\n");
     printf("thanks for coming\n");
@@ -42,16 +46,16 @@ else if(s==2){
     case 2:printf("Price of Diesel is RS 90.00 per litre\n");
     printf("How much litre of diesel you want\n");
     scanf("%d",&c);
-    y=c*90.00;
+    i=c*90.00;
     printf("\n");
-    printf("Your Bill Is %f\n",y);
+    printf("Your Bill Is %d\n",i);
     printf("\n");
     printf("How Would You Like To Pay\n");
     printf("*Press 1 for CASH\n *Press 2 for CARD\n");
-    scanf("%d",&d);
-    if (d==1)
+    scanf("%d",&e);
+    if (e==1)
     printf("Thanks For Coming\n");
-    else if(d==2)
+    else if(e==2)
     {
         printf("Swipe Your Card\n");
         printf("Payment Paid\n");
@@ -59,17 +63,18 @@ else if(s==2){
         }
     case 3:printf("Price of CNG per litre is Rs 70.00\n");
     printf("How much litre of CNG you want\n");
-    printf("\n\n");scanf("%d",&e);
-    w=e*70.00;
+    printf("\n\n");
+    scanf("%d",&g);
+    f=g*70.00;
     printf("\n");
-    printf("Your Bill is %f\n",w);
+    printf("Your Bill is %d\n",f);
     printf("\n");
     printf("How would you like to pay\n");
     printf("press 1 for CASH\n press 2 for CARD\n");
-    scanf("%d",&f);
-    if(f==1)
+    scanf("%d",&h);
+    if(h==1)
     printf("Thanks For Coming\n");
-    else if(f==2)
+    else if(h==2)
     {
         printf("Swipe Your Card\n");
         printf("Payment Paid\n");
@@ -78,3 +83,7 @@ else if(s==2){
     }
     }
     }
+
+
+    
+       
