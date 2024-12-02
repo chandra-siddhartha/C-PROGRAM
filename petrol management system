@@ -82,8 +82,8 @@ else if(d==2){
           scanf("%d",&h);
         printf("Payment Paid\n");
         printf("Thanks For Coming\n");
-        break;
     }
+    break;
     case 4:printf("price for to fill the air for one tyre is Rs 30.00\n");
     printf("How many tyres do you want to fill the air\n");
     printf("\n\n");
@@ -113,5 +113,3 @@ else if(d==2){
 
 
     
-
-
