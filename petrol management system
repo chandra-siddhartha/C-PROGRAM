@@ -10,7 +10,6 @@ printf("\t \t *if bike/any two wheelers Press 1 for PETROL \n");
 printf("\t \t *if any 4 wheelers/any other Press 2 for DIESEL \n");
 printf("\t \t *if any gas vehicals Press 3 for CNG \n");
 printf("\t \t *press 4 for tyre inflator\n");
-printf("\t \t *press 5 for refil the engine oil\n");
 printf("\n");
 scanf("%d",&a);
 switch(a){
@@ -75,7 +74,7 @@ else if(d==2){
     printf("press 1 for CASH\n press 2 for CARD\n");
     scanf("%d",&h);
     if(h==1)
-    printf("Thanks For Coming\n");
+    printf("Payment Paid\n Thanks For Coming\n");
     else if(h==2)
     {
         printf("Swipe Your Card\n");
@@ -97,7 +96,8 @@ else if(d==2){
     printf("press 1 for cash\n press 2 for card\n");
     scanf("%d",&l);
     if(l==1)
-    printf("Thanks For Coming\n");
+    
+    printf("payment successful\n Thanks For Coming\n");
     else if(l==2)
     {
         printf("swipe Your card\n");
@@ -113,4 +113,5 @@ else if(d==2){
 
 
     
+
 
